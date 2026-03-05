@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Permite usar caracteres especiales como acentos y ñ -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que la página sea adaptable a dispositivos móviles -->
+
+    <title>Mi Página Web - ITICS</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+
+    <!-- Estilos CSS internos -->
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+
+        /* Diseño del encabezado */
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Estilo de los enlaces del menú */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        /* Efecto cuando pasamos el mouse sobre los enlaces */
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Diseño de cada sección del cuerpo */
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Estilo para las imágenes */
+        img {
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ================= HEADER ================= -->
+    <!-- El header contiene el título principal y el menú de navegación -->
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+
+        <!-- Menú de navegación con tres enlaces internos -->
+        <nav>
+            <a href="#acerca">Acerca de</a>
+            <a href="#contenido">Qué puedes encontrar</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- ================= SECCIÓN 1 ================= -->
+    <!-- Primera sección del body -->
+    <section id="acerca">
+        <h2>Acerca de esta página</h2>
+
+        <p>
+            Esta página fue creada como parte de la actividad de Programación Web.
+            El objetivo es aprender a utilizar correctamente las etiquetas 
+            semánticas como &lt;header&gt; y &lt;body&gt; en HTML5.
+        </p>
+
+        <!-- Lista desordenada -->
+        <ul>
+            <li>Uso correcto de etiquetas HTML5</li>
+            <li>Estructura organizada</li>
+            <li>Buenas prácticas de programación</li>
+        </ul>
+
+        <!-- Imagen relacionada con HTML5 -->
+        <img src="html.jpg" 
+             alt="Logo de HTML5" width="500">
+    </section>
+
+    <!-- ================= SECCIÓN 2 ================= -->
+    <!-- Segunda sección del body -->
+    <section id="contenido">
+        <h2>Qué puedes encontrar</h2>
+
+        <p>
+            En esta página puedes observar cómo se organizan los elementos 
+            dentro del cuerpo del documento HTML.
+        </p>
+
+        <!-- Lista ordenada -->
+        <ol>
+            <li>Título principal en el header</li>
+            <li>Menú de navegación con tres enlaces</li>
+            <li>Listas ordenadas y desordenadas</li>
+            <li>Imágenes dentro del body</li>
+        </ol>
+
+        <!-- Imagen de código en pantalla -->
+        <img src="codigohtml.jpg" 
+             alt="Código HTML en pantalla" width="300">
+    </section>
+
+    <!-- ================= SECCIÓN 3 ================= -->
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p>
+            Alumna: Diana Azeneth Ramírez Martínez <br>
+            Materia: Programación Web <br>
+            Carrera: ITICS - Sexto Semestre
+        </p>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <!-- Pie de página -->
+    <footer>
+        © 2026 - Proyecto Académico ITICS
+    </footer>
+
+</body>
+</html>
