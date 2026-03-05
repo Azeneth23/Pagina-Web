@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo Digital - Tienda en Línea</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+
+    header, footer{
+      text-align: center;
+      padding: 10px;
+      background-color: #ffffff;
+    }
+
+    section{
+      background: #ffffff;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    table{
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td{
+      border: 1px solid #ccc;
+    }
+
+    th, td{
+      padding: 8px;
+      text-align: center;
+    }
+
+    figure{
+      text-align: center;
+    }
+
+    img{
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .media{
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .media div{
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Catálogo Digital - Tienda en Línea</h1>
+</header>
+
+<!-- INTRODUCCIÓN -->
+<section>
+  <h2>Bienvenido a nuestro catálogo</h2>
+  <p>
+    En esta página encontrarás productos destacados con sus características,
+    precios y material multimedia demostrativo.
+  </p>
+</section>
+
+<!-- FIGURE -->
+<section>
+  <h2>Producto Destacado</h2>
+  <figure>
+    <img src="batidora.webp" alt="Batidora Profesional">
+    <figcaption>Batidora Profesional X10 - Ideal para tu cocina.</figcaption>
+  </figure>
+</section>
+
+<!-- TABLA -->
+<section>
+  <h2>Lista de Productos</h2>
+  <table>
+    <caption>Resumen de Productos</caption>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Categoría</th>
+        <th>Precio</th>
+        <th>Disponibilidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Batidora X10</td>
+        <td>Electrodomésticos</td>
+        <td>$1,299.00</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Audífonos Z</td>
+        <td>Electrónica</td>
+        <td>$799.00</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>Cuaderno A5</td>
+        <td>Papelería</td>
+        <td>$45.00</td>
+        <td>120</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- MULTIMEDIA -->
+<section>
+  <h2>Multimedia del Producto</h2>
+
+  <div class="media">
+
+    <div>
+      <h3>Video Demostrativo</h3>
+      <video controls width="100%">
+        <source src="demo.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </div>
+
+    <div>
+      <h3>Audio Promocional</h3>
+      <audio controls>
+        <source src="promo.mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio.
+      </audio>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Proyecto académico - Catálogo Digital 2026</p>
+</footer>
+
+</body>
+</html>
