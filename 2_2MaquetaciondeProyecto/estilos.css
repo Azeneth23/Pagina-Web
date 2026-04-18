@@ -1,0 +1,63 @@
+/* CLASE GENERAL */
+.tarjeta {
+    border: 1px solid pink;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* SUBCLASE */
+.tarjeta.producto:hover {
+    transform: scale(1.05);
+    background-color: #ffe4ec;
+}
+
+.titulo {
+    color: rgb(133, 66, 77);
+    font-size: 40px;
+}
+
+/* IMÁGENES DE PRODUCTOS */
+.producto img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* ESTILO OFERTAS */
+#ofertas .producto {
+    border: 2px solid #ff4d6d;
+}
+
+#ofertas h2 {
+    color: #b3003c;
+}
+
+/* CENTRAR PRODUCTOS */
+#catalogo .row {
+    justify-content: center;
+}
+
+.producto {
+    text-align: center;
+}
+
+/* REDES SOCIALES */
+.red {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* SUBCLASE */
+.red.social:hover {
+    background-color: #ff4d6d;
+    color: white;
+    transform: scale(1.1);
+}
