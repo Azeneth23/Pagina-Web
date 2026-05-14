@@ -1,0 +1,14 @@
+Nombre: diana azeneth 
+Telefono: 7721908411
+Correo: dianaazeneth827@gmail.com
+Mensaje: Hola como estas soy alumna del tecnológico de Pachuca
+Fecha: 14/05/2026
+Hora: 04:00:19
+----------------------
+Nombre: diana azeneth 
+Telefono: 7721908411
+Correo: dianaazeneth827@gmail.com
+Mensaje: hola como esta amiga
+Fecha: 14/05/2026
+Hora: 04:05:54
+----------------------
